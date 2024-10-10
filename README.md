@@ -46,88 +46,28 @@ pnpm dev
 
 This will launch the app in development mode at [http://localhost:3000](http://localhost:3000).
 
-## Challenge Tiers
+# Instructions/ workflow
 
-### Junior Level
+## Pokemon Listing Page
 
-#### Task:
+The pagelist page is the home page for this pokemon explorer website
 
-Build a simple **Pokémon search app** that allows users to search for Pokémon by name or ID and display their details.
+Inside this page we can able to search/sort and also able to choose the type of pokemon.
 
-#### Requirements:
+when the user clicks the particuar card. the details of that particular pokemon is visible along with the graphical representation. and also able to add the pokemon to the team.
 
-- Use the PokeAPI to fetch Pokémon data.
-- Implement a search bar to search by Pokémon name or ID.
-- Display the Pokémon’s name, image, and type(s) when a search is performed.
-- Ensure the app is **mobile responsive**.
+## Pokemon search page.
 
-#### Bonus Points:
+In this page user can able to search using the name and Id of the pokemon
 
-- Add error handling for invalid searches.
-- Display a loading indicator while fetching data.
+## Teams page
 
----
+Here user can able to manage the pokemons in the teams.. they can able to remove the pokemons..
 
-### Mid Level
+## Login page
 
-#### Task:
+Typical login page.. using chache and local storage..
 
-Create a **Pokémon explorer app** that allows users to browse and view detailed information on Pokémon with pagination.
+## Register page
 
-#### Requirements:
-
-- Fetch and display a list of Pokémon with pagination (using `limit` and `offset` query parameters).
-- Implement client-side routing to display individual Pokémon details on a separate page or modal.
-- Include Pokémon name, image, type(s), abilities, and stats (HP, Attack, etc.).
-- Ensure the app is **fully responsive**.
-
-#### Bonus Points:
-
-- Add sorting and filtering by name, type, or base experience.
-- Implement search functionality that filters Pokémon by name.
-
----
-
-### Senior Level
-
-#### Task:
-
-Build an advanced **Pokémon team management app** that allows users to create and manage a team of Pokémon.
-
-#### Requirements:
-
-- Implement **authentication** (mock authentication is sufficient).
-- Allow users to add Pokémon to a team (max 6 per team) and view detailed stats for each team member.
-- Display evolution chain, stats, abilities, and moves for each Pokémon.
-- Allow users to save and manage multiple teams.
-- Implement **client-side routing** using React Router.
-- Use a state management solution like **Context API** or **Redux**.
-
-#### Bonus Points:
-
-- Add drag-and-drop functionality to reorder Pokémon in the team.
-- Include unit and integration testing.
-- Use a data-fetching library like **React Query** for caching and efficient API calls.
-- Implement **Dark Mode** and **Light Mode** toggle.
-
----
-
-## Submission Guidelines
-
-- Fork this repository and submit your solution via a **GitHub repository** link (preferred) or a **zip file**.
-- Make sure to include a **README** in your submission with:
-  - Setup instructions.
-  - Explanation of your approach.
-  - Any challenges or trade-offs you encountered.
-
----
-
-## Evaluation Criteria
-
-- **Code Quality**: We will evaluate your use of clean code practices, meaningful variable names, and comments where necessary.
-- **Responsiveness**: The app should work well on both mobile and desktop devices.
-- **Functionality**: Ensure that all required features work as expected.
-- **Best Practices**: We value the use of best practices in React development, such as proper naming, state management, and component organization.
-- **Testing**: Testing is a big part of modern development, so will value the use of testing in your solution.
-- **Creativity**: Feel free to add any additional features or enhance the design beyond the requirements.
-- **Willingness**: We want people who go the extra mile in everything they do.
+Typical login page.. using chache and local storage.
